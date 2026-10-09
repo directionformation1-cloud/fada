@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  color: #241a2c;
+  background: #fbf9fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --purple-950: #24112f;
+  --purple-900: #31123f;
+  --purple-800: #47175b;
+  --purple-700: #622179;
+  --purple-600: #7c2e98;
+  --purple-500: #9949b6;
+  --purple-300: #d7afe3;
+  --purple-100: #f2e8f5;
+  --lilac: #e7d0ee;
+  --cream: #f8f4eb;
+  --ink: #241a2c;
+  --muted: #6c6170;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+::selection { background: var(--purple-300); color: var(--purple-950); }
+
